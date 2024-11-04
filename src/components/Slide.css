@@ -1,0 +1,59 @@
+.custom-carousel-image {
+    height: 500px; /* Fixed height */
+    object-fit: contain; /* Show the entire image */
+    width: 100%; /* Ensures the image fills the width */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+}
+
+.caption-container {
+    text-align: center; /* Center the text */
+    color: black; /* Text color */
+    padding: 20px; /* Padding around caption */
+    margin-top: 10px; /* Space between image and caption */
+    max-width: 80%; /* Limit the width of the caption */
+    margin-left: auto; /* Center the caption container */
+    margin-right: auto; /* Center the caption container */
+    background: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners for the caption box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.caption-container h3 {
+    font-size: 28px; /* Increase font size for the title */
+    font-weight: bold; /* Bold title for emphasis */
+    margin-bottom: 5px; /* Space between title and description */
+}
+
+.caption-container p {
+    font-size: 18px; /* Increase font size for description */
+    line-height: 1.5; /* Increase line height for readability */
+    margin: 0; /* Remove default margin */
+    text-shadow: none; /* Remove text shadow for clarity */
+}
+
+/* Hide the carousel indicators (dots) */
+.carousel-indicators {
+    display: none;
+}
+
+/* Style the left and right controls (arrows) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Change arrow color to black */
+    border-radius: 50%; /* Optional: Make arrows round */
+    width: 30px; /* Adjust width */
+    height: 30px; /* Adjust height */
+    opacity: 1; /* Ensure the arrows are fully opaque */
+}
+
+
+.caption-container p {
+    font-size: 20px; /* Font size for description */
+    line-height: 1.6; /* Increase line height for readability */
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Padding within the paragraph */
+    font-weight: 400; /* Regular font weight */
+    font-family: 'Arial', sans-serif; /* Font family */
+    text-align: justify; /* Justify text for a more paragraph-like appearance */
+    letter-spacing: 0.5px; /* Slightly increase spacing between letters */
+}
