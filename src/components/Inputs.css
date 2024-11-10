@@ -1,0 +1,50 @@
+/* Inputs.css */
+
+/* Conteneur principal pour les champs de saisie */
+.inputs-container {
+    display: flex; /* Aligne les éléments horizontalement */
+    justify-content: space-between; /* Espacement entre les champs */
+    align-items: center; /* Centre verticalement les éléments */
+    width: 100%; /* Largeur du conteneur */
+    max-width: 800px; /* Largeur maximum du conteneur */
+    margin: auto; /* Centre le conteneur sur la page */
+    padding: 20px; /* Espacement interne */
+    background-color: #fff; /* Fond blanc */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombre portée douce */
+  }
+  
+  /* Style des champs de texte */
+  input[type="text"] {
+    padding: 10px; /* Espacement interne des champs */
+    margin: 0 10px; /* Espacement horizontal entre les champs */
+    border: 1px solid #ddd; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    flex: 1; /* Prend toute la largeur disponible */
+    transition: border-color 0.3s; /* Transition pour le changement de couleur */
+  }
+  
+  /* Changement de couleur de la bordure au focus */
+  input[type="text"]:focus {
+    border-color: rgb(246, 109, 59); /* Couleur de bordure au focus */
+    outline: none; /* Supprime le contour par défaut */
+  }
+  
+  /* Style du bouton */
+  button {
+    background-color: rgb(246, 109, 59); /* Couleur de fond */
+    border: none; /* Supprime la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    font-size: 16px; /* Taille de la police */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main */
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+  }
+  
+  /* Couleur du bouton au survol */
+  button:hover {
+    background-color: darkorange; /* Couleur au survol */
+  }
+  

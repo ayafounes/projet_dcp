@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7; /* Couleur de fond douce pour l'agence */
+}
+
+.App {
+  padding: 20px;
+}
+
+/* Styles pour le bouton de recherche */
+button {
+  background-color: orange; /* Couleur orange pour le bouton */
+  color: white; /* Texte en blanc */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transition pour le survol */
+}
+
+button:hover {
+  background-color: darkorange; /* Couleur au survol */
+}

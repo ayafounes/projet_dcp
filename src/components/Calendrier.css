@@ -1,0 +1,35 @@
+/* Calendrier.css */
+
+.calendar-container {
+    position: relative; /* Positionnement relatif pour le conteneur */
+  }
+  
+  /* Style pour le modal du calendrier */
+  .calendar-modal {
+    position: fixed; /* Positionnement fixe pour centrer le calendrier */
+    top: 50%; /* Centre verticalement */
+    left: 50%; /* Centre horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste le positionnement pour centrer */
+    z-index: 1000; /* Assure que le calendrier est au-dessus des autres éléments */
+    background-color: white; /* Fond blanc */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Ombre douce */
+    padding: 20px; /* Espacement interne */
+    animation: slideIn 0.3s ease; /* Animation d'entrée */
+    max-width: 100 pxs; /* Limite la largeur du calendrier */
+  font-size: 0.85em; /* Réduit la taille de la police pour diminuer la taille globale */
+  padding: 10px; 
+  }
+  
+  /* Animation pour le calendrier */
+  @keyframes slideIn {
+    from {
+      transform: translate(-50%, -60%); /* Position d'entrée depuis le haut */
+      opacity: 0; /* Invisible au début */
+    }
+    to {
+      transform: translate(-50%, -50%); /* Position finale centrée */
+      opacity: 1; /* Visible à la fin */
+    }
+  }
+  
