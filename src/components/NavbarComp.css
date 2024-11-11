@@ -1,35 +1,6 @@
+/* Navbar branding */
 .navbar-brand {
     margin-right: 50px; /* Adds space between the brand and nav links */
-}
-
-.nav-link {
-    margin-left: 15px; /* Space between each link */
-    color: #333; /* Optional: customize link color */
-}
-
-.nav-link:hover {
-    color:  rgb(246, 109, 59); /* Optional: link color on hover */
-}
-
-.nav-link {
-    color: #333; /* Optional: default link color */
-}
-
-.nav-link:hover {
-    color:  rgb(246, 109, 59); /* Change link color on hover */
-}
-
-.custom-button {
-    background-color: rgb(246, 109, 59);
-    border: none; /* Optional: remove border */
-    color: white; /* Text color */
-}
-
-.custom-button:hover {
-    background-color: darkorange; /* Desired hover color */
-}
-
-.navbar-brand {
     font-size: 2rem; /* Increase the font size */
     font-weight: bold; /* Make the font bold */
     color: #FF6A00; /* Change the text color to a vibrant orange */
@@ -42,4 +13,23 @@
     color: #FF8C00; /* Change color on hover */
 }
 
+/* Navbar link styling */
+.nav-link {
+    margin-left: 15px; /* Space between each link */
+    color: #333; /* Default link color */
+}
 
+.nav-link:hover {
+    color: rgb(246, 109, 59); /* Change link color on hover */
+}
+
+/* Custom button styling */
+.custom-button {
+    background-color: rgb(246, 109, 59);
+    border: none; /* Optional: remove border */
+    color: white; /* Text color */
+}
+
+.custom-button:hover {
+    background-color: darkorange; /* Desired hover color */
+}
